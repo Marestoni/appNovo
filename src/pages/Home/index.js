@@ -14,6 +14,10 @@ export default function Home() {
             title="Contato"
             onPress={() => navigation.navigate('Contato')}
         />
+        <Button 
+            title="Abrir o menu lateral"
+            onPress={() => navigation.toggleDrawer()}
+        />
         
    </View>
   );
